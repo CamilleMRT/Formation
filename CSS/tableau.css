@@ -1,0 +1,86 @@
+
+/* TABLEAU 1
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    transition-duration: 1s;
+
+}
+
+a:hover{
+    cursor:pointer;
+    color: burlywood;
+}
+
+Centrage du tableau 
+table{
+    margin: 20% auto;    
+    border-collapse:collapse;
+    caption-side: bottom;
+
+}
+
+thead{
+    background-color: gray;
+}
+
+ Contours tableau 
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: burlywood;
+}
+
+.prenom{
+    background-color: #D7D9F2;
+  }
+.adresse{
+    background-color: #FFE8D4;
+  }
+/* FIN TABLEAU 1*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+table{
+    margin: 20% auto;    
+    border-collapse: collapse;  
+}
+
+th,td{
+    border: 1px solid #683468;
+    padding: 5px 50px 5px 50px;  
+    text-align: left;  
+}
+
+th{
+    background-color:#683468;
+    color: #fff;
+}
+
+td{
+    padding-left: 1px;
+}
+
+tr:nth-child(even){
+    background-color: #f1e3f1;
+}
+
+tr:hover{
+    background-color: #492349;
+    color: #fff;
+}
+
+
+
+

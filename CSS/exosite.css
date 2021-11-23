@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+    font-family: Verdana, sans-serif;
+    margin: 1%;
+}
+
+header{
+    padding: 1%;
+    background-color: gray;
+    color: white;
+    border: 1px solid blue;
+    grid-column: 1/6;
+}
+
+header h2{
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+.nav{
+    background-color: lightblue;
+    padding-bottom: 100%;
+
+}
+
+ul{
+    margin: auto;
+    list-style: none;
+    
+}
+
+li{
+    background-color: yellow;
+    margin-top: 1%;
+    margin-right: 30px;
+    padding: 2%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    transition: color 1s;
+}
+
+a:hover{
+    color: green;
+
+}
+
+.contenu{
+    background-color: white;
+    color:black;
+    padding: 2%;
+    grid-column: 2/6;
+}
+
+
+/* Mise en page contenu */
+
+.contenu h1{
+    background-color:lightgray;
+    border-bottom: 5px solid lightseagreen;
+    padding: 1%;
+}
+
+.contenu .p1{
+    text-align: justify;
+    border: 3px solid lightseagreen;
+    border-radius: 20px;
+    padding:1%;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: lightseagreen;
+}
+
+.lientxt{
+    color: lightseagreen;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.contenu h2{
+    margin-top: 5%;
+    padding-left: 2%;
+    color: lightseagreen;
+    font-weight: 500;
+}
+
+
+
+
+
+
+

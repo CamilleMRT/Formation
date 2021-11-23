@@ -1,0 +1,40 @@
+#conteneur{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: grey;
+    border: 10px solid purple;
+    width: 300px;
+    margin: 20% auto;
+    padding: 20px;
+}
+
+.affichagebox{
+    border: 3px solid black;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+#element1{
+    background-color: orange;
+}
+
+#element2{
+    background-color: blue;
+    flex: auto;
+}
+
+#element3{
+    background-color: green;
+}
+
+#element4{
+    background-color: red;
+}
+
+#element5{
+    background-color:pink;
+
+}

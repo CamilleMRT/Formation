@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:Verdana, sans-serif;
+    color: #000;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px yellow;
+}
+
+header .right ul{
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    
+}
+
+.test{
+    text-align:center;
+    border:1px solid black;
+}
+
+
+
+
